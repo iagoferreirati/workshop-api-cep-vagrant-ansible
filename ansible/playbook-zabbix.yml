@@ -1,0 +1,7 @@
+---
+- hosts: localhost
+  become: true
+  roles:
+    - ansible-role-mysql
+    - ansible-role-zabbix-server
+    - zabbix-agent

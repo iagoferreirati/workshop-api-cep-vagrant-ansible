@@ -1,0 +1,7 @@
+---
+- name: Include centos
+  include: ubuntu.yml
+
+- name: Include configure
+  include: configure.yml
+...
